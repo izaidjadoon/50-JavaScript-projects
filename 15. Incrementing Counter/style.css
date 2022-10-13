@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: #be44ad;
+  color: #fff;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  overflow: hidden;
+}
+.counter-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 30px 50px;
+  text-align: center;
+}
+.counter {
+  font-size: 60px;
+  margin-top: 10px;
+}
+@media (max-width: 580px) {
+  body {
+    flex-direction: column;
+  }
+}
