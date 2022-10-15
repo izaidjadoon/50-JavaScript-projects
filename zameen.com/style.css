@@ -1,0 +1,51 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.item-info {
+  display: inline-block;
+}
+.header {
+  display: inline-block;
+  background-color: aquamarine;
+  padding: 2px 5px;
+  margin: 10px;
+}
+img {
+  width: 250px;
+}
+.btn-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+form {
+  display: inline-block;
+  margin: 10px;
+}
+select {
+  height: 50px;
+  width: auto;
+  padding: 10px;
+  background-color: aquamarine;
+  font-size: 15px;
+}
+button {
+  background-color: aquamarine;
+  color: #333;
+  font-size: 20px;
+  border: none;
+}
+.filter-btn {
+  width: 100%;
+}
+.btn-group {
+  margin: 10px;
+}

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+
+    <title>Zameen.com</title>
+</head>
+
+<body>
+
+    <div class="btn-container">
+        <!-- Example single danger button -->
+        <div class="btn-group">
+            <button type="button" class="btn btn-danger dropdown-toggle" data-bs-toggle="dropdown">
+                Categories
+            </button>
+            <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#"> <button class="filter-btn" data-id="all">All</button></a>
+                </li>
+                <li><a class="dropdown-item" href="#"> <button class="filter-btn" data-id="plot">plot</button></a>
+                </li>
+                <li><a class="dropdown-item" href="#"> <button class="filter-btn" data-id="house">house</button></a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="btn-group">
+            <button type="button" class="btn btn-danger dropdown-toggle" data-bs-toggle="dropdown">
+                Size
+            </button>
+            <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#"> <button class="filter-btn" data-size="1 kanal">1
+                            kanal</button></a>
+                </li>
+                <li><a class="dropdown-item" href="#"> <button class="filter-btn" data-size="10 marla">10
+                            Marla</button></a>
+                </li>
+                <li><a class="dropdown-item" href="#"> <button class="filter-btn" data-size="7 marla">7
+                            Marla</button></a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="btn-group">
+            <button type="button" class="btn btn-danger dropdown-toggle" data-bs-toggle="dropdown">
+                Location
+            </button>
+            <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#"> <button class="filter-btn"
+                            data-location="islamabad">Islamabad</button></a>
+                </li>
+                <li><a class="dropdown-item" href="#"> <button class="filter-btn"
+                            data-location="peshawar">Peshawar</button></a>
+                </li>
+                <li><a class="dropdown-item" href="#"> <button class="filter-btn"
+                            data-location="karachi">Karachi</button></a>
+                </li>
+            </ul>
+        </div>
+
+    </div>
+
+    <article class="item-info">
+        <!-- We put the following code from javaScript via dom -->
+
+        <!-- <div class="header">
+            <img class="img" src="./imges/land1.jpeg" alt="">
+            <h4 class="catagory">plot</h4>
+            <h4 class="size">1 Kanal</h4>
+            <h4 class="location">Karachi</h4>
+            <h4 class="price">pkr 500000</h4>
+        </div> -->
+
+    </article>
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script src="./script.js"></script>
+</body>
+
+</html>
